@@ -10,9 +10,9 @@ public interface HashedUrlService {
     return Arrays.toString(getEncodedByteArray(input));
   }
 
-  byte[] getShortenedEncodedByteArray(String input, int length);
+  byte[] getShortenedEncodedByteArray(String input);
 
-  default String getShortenedEncodedString(String input, int length) {
-    return Arrays.toString(getShortenedEncodedByteArray(input, length));
+  default String getShortenedEncodedString(String input) {
+    return Arrays.toString(getShortenedEncodedByteArray(input));
   }
 }

@@ -15,7 +15,7 @@ public class SHA1UrlService implements HashedUrlService{
   }
 
   @Override
-  public byte[] getShortenedEncodedByteArray(String input, int length) {
+  public byte[] getShortenedEncodedByteArray(String input) {
     return new byte[0];
   }
 }

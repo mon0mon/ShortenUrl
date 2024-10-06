@@ -15,7 +15,7 @@ public class MD5UrlService implements HashedUrlService{
   }
 
   @Override
-  public byte[] getShortenedEncodedByteArray(String input, int length) {
+  public byte[] getShortenedEncodedByteArray(String input) {
     return new byte[0];
   }
 }
